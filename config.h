@@ -10,12 +10,14 @@ static const unsigned int gappov    = 10;       /* vert outer gap between window
 static const int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "Jetbrains Mono:size=14" };
-static const char col_gray1[]       = "#282a36";
-static const char col_gray2[]       = "#44475a";
+static const int vertpad            = 5;       /* vertical padding of bar */
+static const int sidepad            = 10;       /* horizontal padding of bar */
+static const char *fonts[]          = { "Jetbrains Mono:size=16" };
+static const char col_gray1[]       = "#2e3440";
+static const char col_gray2[]       = "#4c556a";
 static const char col_gray3[]       = "#f8f8f2";
 static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#221b4e";
+static const char col_cyan[]        = "#557ca2";
 static const char *colors[][3]      = {
         /*               fg         bg         border   */
         [SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
